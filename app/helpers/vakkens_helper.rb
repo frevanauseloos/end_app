@@ -1,0 +1,2 @@
+module VakkensHelper
+end

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @vakken.name %>
+</p>
+
+<p>
+  <b>Studiepunten:</b>
+  <%= @vakken.studiepunten %>
+</p>
+
+
+<%= link_to 'Edit', edit_vakken_path(@vakken) %> |
+<%= link_to 'Back', vakkens_path %>
